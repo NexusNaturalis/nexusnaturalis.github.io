@@ -1,15 +1,16 @@
 
 body {
-    font-family: 'Segoe UI', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f5f4e9;
+    background-color: #fdfcf8;
     color: #2e2e2e;
+    line-height: 1.6;
 }
 
 header {
-    background-color: #6b8e23;
-    color: white;
+    background-color: #556b2f;
+    color: #fff;
     padding: 1em;
     text-align: center;
 }
@@ -19,27 +20,42 @@ nav ul {
     padding: 0;
     display: flex;
     justify-content: center;
-    gap: 1.5em;
+    flex-wrap: wrap;
+    gap: 1em;
+    margin-top: 0.5em;
 }
 
 nav a {
-    color: white;
+    color: #fff;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: 600;
 }
 
 section {
     padding: 2em;
-    max-width: 800px;
+    max-width: 900px;
     margin: auto;
 }
 
+.hero {
+    background-color: #e8eddf;
+    text-align: center;
+    padding: 3em 2em;
+    border-bottom: 2px solid #cbd5b4;
+}
+
+h1, h2 {
+    color: #4b5320;
+}
+
+ul li {
+    margin-bottom: 0.7em;
+}
+
 footer {
-    background-color: #6b8e23;
+    background-color: #556b2f;
     color: white;
     text-align: center;
     padding: 1em;
-    position: relative;
-    bottom: 0;
-    width: 100%;
+    margin-top: 2em;
 }
